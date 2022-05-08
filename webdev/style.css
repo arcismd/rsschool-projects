@@ -268,3 +268,100 @@ p {
     font-weight: 400;
     color: #4E4E4E; 
 }
+
+/* Our Community Block */
+#our-community {
+    display: flex;
+    height: 504px;
+    background-color: #F5F6F7; 
+}
+
+.second-section-info {
+    width: 298px;
+    margin: 155px 139px 174px 269px; 
+}
+    
+.second-section-info img {
+    margin: 0 127px 20px 127px; }
+     
+.second-section-info h4 {
+    padding-left: 1px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+    margin-bottom: 11px; 
+}
+
+.second-section-info p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center; 
+}
+
+.slider {
+    margin-top: 80px;
+    overflow: hidden; 
+}
+  
+.slider-counter {
+    margin-right: 269px;
+    margin-left: auto;
+    display: flex;
+    width: 11px;
+    height: 18px;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.slider-counter-left {
+    position: relative;
+    cursor: pointer;
+    margin-right: 13px;
+    width: 10px;
+    height: 14px;
+    content: url(assets/arrow-left.svg);
+
+}
+
+.slider-counter-right {
+    position: relative;
+    cursor: pointer;
+    margin-left: 13px;
+    width: 10px;
+    height: 14px;
+    content: url(assets/arrow-right.svg);
+}
+
+.slider-counter-left:hover, .slider-counter-right:hover {
+    opacity: 0.5;
+}
+    
+.slider-counter-1, .slider-counter-slash, .slider-counter-5 {
+    font-style: normal;
+    font-weight: normal;
+    padding: 2px;
+    font-size: 18px;
+    line-height: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #373737; 
+}
+  
+.second-section-images {
+    display: flex; 
+}
+
+.second-section-images img {
+    width: 407px;
+    height: 244px; 
+}
+
+.second-section-images img:not(:last-child) {
+    margin-right: 30px; 
+}
