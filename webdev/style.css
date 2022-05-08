@@ -171,7 +171,7 @@ margin-right: 40px;
     margin-bottom: 21px;
 }
 
-/*  */ 
+/* Your Life Block */ 
 #your-life {
     width: 1600px;
     height: 788px;
@@ -226,4 +226,45 @@ margin-right: 40px;
 .social-icons a:hover {
     transform: translateY(-5px);
     cursor: pointer; 
+}
+
+/* Rappresent Block */
+#rappresent {
+    display: flex;
+    margin-top: -44px;
+    height: 842px;
+    background-color: #fff; 
+}
+
+.first-section-info {
+      margin: 295px 248px 0 268px;
+      width: 407px;
+      height: 233px; 
+}
+
+.first-section-info .btn-main {
+    margin-left: 0; 
+}
+
+.first-section-image {
+    width: 677px;
+    margin-top: 120px; 
+}
+  
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #373737;
+    margin-bottom: 20px; 
+}
+  
+p {
+    line-height: 19px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #4E4E4E; 
 }
