@@ -82,7 +82,6 @@ select {
 
 html, body {
     font-family: Roboto, sans-serif;
-    min-height: 1000%;
     max-width: 1600px;
     margin: 0 auto;
     background-color: rgb(233, 233, 233);
@@ -101,17 +100,13 @@ html, body {
 }
 
 #header nav {
-margin-right: 40px;
-width: 582px;
-    height: 95px;
-   
+margin-right: 40px; 
 }
 
 #header nav ul {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    height: 100%;
 }
 
     #header nav ul li:first-child {
@@ -128,9 +123,43 @@ width: 582px;
         margin-right: 85px; 
     }
 
+#header nav ul li img:hover {
+    cursor: pointer;
+}
+
+#header nav ul li a {
+    position: relative; 
+    opacity: 0.8;
+    color: #fff;
+}
+
+#header nav ul li a:after {
+    position: absolute;
+    right: 0;
+    content: " ";
+    width: 100%;
+    transform: scale(0); 
+    padding: 0.5px;
+    background-color: #fff;
+    bottom: -1px;
+}
+#header nav ul li a.active {
+    opacity: 1; 
+}
+#header nav ul li a.active:after {
+    transform: scale(1); 
+}
+
+#header nav ul li a:hover {
+    opacity: 1; 
+}
+#header nav ul li a:hover:after {
+    transform: scale(1);
+}
+
 #header h1 {
     position: absolute; 
-    padding-top: 230px;
+    margin-top: 230px;
     text-align: center;
     font-style: normal;
     text-transform: uppercase;
@@ -143,3 +172,58 @@ width: 582px;
 }
 
 /*  */ 
+#your-life {
+    width: 1600px;
+    height: 788px;
+    background: url("assets/bg-image.svg") no-repeat; 
+}
+
+#your-life h3 {
+    padding-top: 325px;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+    width: 504px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 30px; 
+}
+
+.btn-main {
+    width: 184px;
+    height: 46px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    background-color: #00AFDB;
+    color: #FFFFFF;
+    margin-bottom: 183px;
+}
+
+.btn-main:hover {
+    background-color: #009CC2;;
+    cursor: pointer; 
+}
+
+.social-icons {
+    width: 160px;
+    height: 20px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between; }
+    
+.social-icons a {
+    transition: all 0.2s linear; 
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px);
+    cursor: pointer; 
+}
