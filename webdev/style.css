@@ -230,6 +230,7 @@ margin-right: 40px;
 
 /* Rappresent Block */
 #rappresent {
+    width: 1600px;
     display: flex;
     height: 842px;
     background-color: #fff; 
@@ -270,6 +271,7 @@ p {
 
 /* Our Community Block */
 #our-community {
+    width: 1600px;
     display: flex;
     height: 504px;
     background-color: #F5F6F7; 
@@ -367,6 +369,7 @@ p {
 
 /* Implement Block */
 #implement {
+    width: 1600px;
     height: 842px;
     display: flex;
     background-color: #fff; 
@@ -398,6 +401,7 @@ p {
 
 /* Subscribe Block */
 #subscribe {
+    width: 1600px;
     min-width: 100%;
     height: 598px;
     margin: 0 auto;
@@ -478,6 +482,7 @@ input[type="submit"] {
 
 /* Download block */
 #download {
+    width: 1600px;
     height: 468px;
     padding-top: 120px;
     background-color: #F5F6F7; 
@@ -533,6 +538,7 @@ input[type="submit"] {
 
 /* Footer */
 footer {
+    width: 1600px;
     display: flex;
     align-items: center; 
     justify-content: center;
