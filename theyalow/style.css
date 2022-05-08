@@ -306,3 +306,43 @@ nav {
     background-color: #f9dc69;
 }
 /* End Header Content */
+
+/* Start Short Information Section */
+.short-info-section {
+    background: url(assets/short-section-background.png);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25),
+      0px -5px 10px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    position: relative;
+}
+  
+.short-info-section-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 213px;
+}
+  
+.short-info-section-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 0;
+    align-items: center;
+    text-transform: uppercase;
+    border-left: 1px solid rgb(0, 0, 0, 0.14);
+    flex: 0 1 340px;
+    font-size: calc(1.375rem + ((1vw - 3.6px) * 0.5319));
+    font-weight: normal;
+    font-family: SegoeUI-Light, AdobeInvisFont, MyriadPro-Regular;
+}
+  
+.short-info-section-box h3 {
+    padding-top: 0.5rem;
+    text-align: center;
+}
+  
+.short-info-section-container > *:last-of-type {
+    border-right: 1px solid rgb(0, 0, 0, 0.14);
+}
+/* End Short Information Section */
