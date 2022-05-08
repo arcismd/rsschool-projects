@@ -346,3 +346,225 @@ nav {
     border-right: 1px solid rgb(0, 0, 0, 0.14);
 }
 /* End Short Information Section */
+
+/* Start Yellow Information Section */
+.y-section {
+    background-image: url(assets/yellow-bg.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.y-section-heading {
+    font-size: 37px;
+    color: white;
+    text-transform: uppercase;
+    font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
+    align-self: flex-start;
+    font-weight: normal;
+    padding: 0.7em 0;
+}
+  
+.y-section-main-container {
+    display: flex;
+    flex-direction: column;
+}
+  
+.y-section-columns {
+    display: flex;
+    justify-content: center;
+}
+  
+.y-section-columns > * {
+    flex: 0 1 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.y-section-text-box {
+    background-color: #ec9e03;
+    color: white;
+    position: relative;
+    font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
+}
+  
+.y-section-text-box p {
+    width: 80%;
+    font-size: calc(1.125rem + ((1vw - 3.6px) * 1.1702));
+}
+  
+.y-section-image {
+    background-image: url("assets/animation.png");
+    background-repeat: no-repeat;
+    height: 233px;
+    width: 315px;
+}
+  
+.y-section-image > * {
+    margin: 0;
+}
+  
+.y-section-date {
+    background-color: #ddb101;
+    text-align: center;
+    padding: 0.4em 1.5em 0.4em 1.5em;
+    align-self: flex-start;
+    font-family: SegoeUI, AdobeInvisFont, MyriadPro-Regular;
+}
+  
+.y-section-date div:first-of-type {
+    font-size: 51px;
+    color: white;
+    font-weight: bold;
+    line-height: 42px;
+    font-family: SegoeUI-Bold, AdobeInvisFont, MyriadPro-Regular;
+}
+  
+.y-section-date div:last-of-type {
+    color: #b26529;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+  
+.twitter-box {
+    background-color: #ec9e03;
+    margin-left: 2rem;
+    position: relative;
+}
+  
+.twitter-box-mobile {
+    display: none;
+    background-color: #f5c507;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+  
+.twitter-bubbles {
+    display: flex;
+    flex-direction: column;
+}
+  
+.twitter-bubble {
+    position: relative;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+}
+  
+.twitter-bubble:first-of-type {
+    opacity: 1;
+}
+  
+.twitter-bubble:last-of-type {
+    opacity: 0.6;
+}
+  
+.twitter-bubble-text {
+    position: absolute;
+    top: 0.4rem;
+    left: 1.2rem;
+    font-size: calc(0.6875rem + ((1vw - 3.6px) * 0.8511));
+    color: #8f8e8e;
+}
+  
+.twitter-bubble-img {
+    width: calc(12.5rem + ((1vw - 3.6px) * 31.9149));
+}
+  
+.twitter-bubbles > * {
+    flex: 1;
+}
+  
+.twitter-form {
+    display: flex;
+    width: 100%;
+    border: 1px solid #dcb105;
+    border-radius: 11px;
+}
+  
+.twitter-form input {
+    border-radius: 11px 0 0 11px;
+    border: none;
+    flex: 1;
+}
+  
+.twitter-form button {
+    background-color: #ec9e03;
+    border: none;
+    border-radius: 0 11px 11px 0;
+    color: white;
+    font-family: ArialMT, AdobeInvisFont, MyriadPro-Regular;
+    flex: 0 1 80px;
+    padding: 5.5px 0px;
+    font-size: 15px;
+}
+  
+.twitter-form button:hover {
+    background-color: #ddb101;
+}
+  
+.twitter-icon-mobile {
+    width: calc(8.75rem + ((1vw - 3.6px) * 2.5532));
+}
+  
+.plus {
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+}
+  
+.plus:hover {
+    color: black;
+}
+  
+.twitter-number {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    color: white;
+    font-size: 25px;
+    font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
+}
+  
+.slider {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.48);
+    height: 12px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 3em 0 1.3em 0;
+    cursor: pointer;
+}
+  
+.slider:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+  
+.slider-nav {
+    position: absolute;
+    background-color: #ec9e03;
+    width: 25%;
+    height: 100%;
+    left: 30%;
+    border-radius: 10px;
+}
+  
+.cloud {
+    width: calc(5rem + ((1vw - 3.6px) * 3.1915));
+}
+  
+.leaf {
+    width: calc(4.1875rem + ((1vw - 3.6px) * 2.6596));
+}
+  
+.paper-plane {
+    width: calc(3.75rem + ((1vw - 3.6px) * 2.3404));
+}
+/* End Yellow Information Section */
