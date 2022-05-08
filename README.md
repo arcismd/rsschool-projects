@@ -1,7 +1,7 @@
 ## Task: [Hometask: webdev](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/webdev-en.md)
 ### App screenshot:
  ![Alt text](https://raw.githubusercontent.com/arcismd/freecodecamp-projects/master/responsive-web-design/certification/app-screen.png "Screenshot Of My Application")
-### Deploy: https://rolling-scopes-school.github.io/arcismd-JSFELT/webdev/
+### Deploy: https://arcismd.github.io/rsschool-projects/webdev/
 ### Done 18.02.22 (deadline 18.02.22)
 ## Score: 100 / 100
 #### Header
