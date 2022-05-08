@@ -175,7 +175,7 @@ margin-right: 40px;
 #your-life {
     width: 1600px;
     height: 788px;
-    background: url("assets/bg-image.svg") no-repeat; 
+    background: url("assets/bg-image.svg") no-repeat 50%/cover; 
 }
 
 #your-life h3 {
@@ -231,7 +231,6 @@ margin-right: 40px;
 /* Rappresent Block */
 #rappresent {
     display: flex;
-    margin-top: -44px;
     height: 842px;
     background-color: #fff; 
 }
