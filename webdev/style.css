@@ -365,3 +365,34 @@ p {
 .second-section-images img:not(:last-child) {
     margin-right: 30px; 
 }
+
+/* Implement Block */
+#implement {
+    height: 842px;
+    display: flex;
+    background-color: #fff; 
+}
+  
+.third-section-image {
+    padding: 120px 139px 0 269px; 
+}
+  
+.third-section-info {
+    width: 407px;
+    height: 184px;
+    padding-top: 319px; 
+}
+    
+    
+.third-section-info h2 {
+    margin-bottom: 21px; 
+}
+
+.third-section-info p {
+    margin-bottom: 29px; 
+}
+
+.third-section-info .btn-main {
+    margin-left: 0;
+    width: 180px; 
+}
