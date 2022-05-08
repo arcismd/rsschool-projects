@@ -406,7 +406,7 @@ p {
     justify-content: center;
     align-content: flex-start;
     flex-wrap: wrap;
-    background: url("assets/subcribe-bg.svg") no-repeat 100%/cover;
+    background: url("assets/6-bg.png") no-repeat 100%/cover;
 }
 
 #subscribe h2 {
@@ -437,7 +437,11 @@ p {
 #subscribe form input:first-child {
     width: 340px;
     padding-left: 24px; 
+    border: 0;
 }
+
+#subscribe form input:first-child:focus { outline: none; }
+
 #subscribe form input::placeholder {
     font-style: normal;
     font-weight: normal;
@@ -461,7 +465,7 @@ p {
 }
 
 input[type="submit"] {
-    margin-left: -1px;
+    margin-left: -2px;
     height: 46px;
     width: 66px;
     border: 0;
