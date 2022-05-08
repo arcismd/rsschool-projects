@@ -406,7 +406,9 @@ p {
     justify-content: center;
     align-content: flex-start;
     flex-wrap: wrap;
-    background: url("assets/6-bg.png") no-repeat 100%/cover;
+    background-image: url(assets/section5.jpg);
+    background-repeat: no-repeat;
+    background-position: center -615px;
 }
 
 #subscribe h2 {
@@ -440,7 +442,9 @@ p {
     border: 0;
 }
 
-#subscribe form input:first-child:focus { outline: none; }
+#subscribe form input:first-child:focus {
+     outline: none; 
+}
 
 #subscribe form input::placeholder {
     font-style: normal;
@@ -557,6 +561,10 @@ footer {
 
 .footer-logo {
     margin-right: 445px; 
+}
+
+.footer-logo:hover {
+    cursor: pointer; 
 }
   
 .c {
