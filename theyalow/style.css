@@ -568,3 +568,107 @@ nav {
     width: calc(3.75rem + ((1vw - 3.6px) * 2.3404));
 }
 /* End Yellow Information Section */
+  
+/* Start Grey Information Section */
+.g-section {
+    background-image: url(./assets/grey-background.png);
+}
+  
+.g-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+  
+.g-section-heading {
+    color: #f5c506;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em 0;
+    font-size: calc(1.875rem + ((1vw - 3.6px) * 1.383));
+    font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-weight: normal;
+}
+  
+.g-section ul {
+    padding: 0;
+    margin: 0;
+    flex: 0 0 376px;
+}
+  
+.g-section ul li {
+    color: #a9a9a7;
+    font-size: 22px;
+    list-style: none;
+    position: relative;
+    padding: 0 0 14px 36px;
+}
+  
+.g-section ul li:nth-child(odd) {
+    font-family: PTSans-Regular, OpenSans, AdobeInvisFont, MyriadPro-Regular;
+}
+  
+.g-section ul li:nth-child(even) {
+    font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+}
+  
+.g-section ul li::before {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 14px;
+    top: 6px;
+    left: 0;
+    background-color: #f5c506;
+    border-radius: 50%;
+}
+  
+.window-type {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+  
+.wdindow-type-container > * {
+    padding-right: 1rem;
+    opacity: 0.57;
+}
+  
+.free {
+    position: absolute;
+    width: 116px;
+    border-radius: 50%;
+    height: 116px;
+    font-size: calc(0.625rem + ((1vw - 3.6px) * 0.6383));
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f5c506;
+    top: -3rem;
+    left: -3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-family: PTSans-NarrowBold, AdobeInvisFont, MyriadPro-Regular;
+    opacity: 1;
+    z-index: 1;
+}
+  
+.smartphone {
+    align-self: flex-end;
+    padding-right: 0;
+    width: calc(1.4375rem + ((1vw - 3.6px) * 1.7021));
+}
+  
+.tablet {
+    opacity: 0.47;
+    width: calc(4.75rem + ((1vw - 3.6px) * 5.6383));
+}
+  
+.desktop {
+    width: calc(10.8rem + ((1vw - 3.6px) * 13.9));
+}
+/* End Grey Information Section */
