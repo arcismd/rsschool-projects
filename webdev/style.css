@@ -397,6 +397,63 @@ p {
     width: 180px; 
 }
 
+/* Download block */
+#download {
+    width: 1600px;
+    height: 468px;
+    margin: 0 auto;
+    padding-top: 119px;
+    background-color: #F5F6F7; 
+}
+
+#download h2 {
+    text-align: center; 
+}
+    
+#download p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    width: 483px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0 30px 1px; }
+
+.btn-store {
+    display: flex;
+    justify-content: space-between; 
+    width: 406px;
+    margin: 0px auto 0;
+    padding-left: 1px;
+}
+
+.btn-store .btn-main {
+    margin: 0;
+    cursor: pointer;
+    width: 188px;
+    height: 50px; 
+}
+
+.btn-store .btn-main:hover {
+    background-color: #009CC2; 
+}
+
+.btn-store .btn-name {
+    width: 128px;
+    text-align: center; 
+}
+
+.btn-store .btn-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+    padding-bottom: 5px;
+    background-color: #009CC2;
+}
+
 /* Footer */
 footer {
     display: flex;
