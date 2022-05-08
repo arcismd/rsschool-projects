@@ -10,10 +10,11 @@ p {
 button {
     cursor: pointer;
 }
-  
+
 a {
     cursor: pointer;
 }
+
 /* End Reset */
 
 /* Start Fonts */
@@ -37,62 +38,63 @@ a {
     font-weight: normal;
     src: url("assets/fonts/Asap-Regular.ttf") format("truetype");
 }
-  
+
 @font-face {
     font-family: "SegoeWP";
     font-style: normal;
     font-weight: normal;
     src: url("assets/fonts/SegoeWP.ttf") format("truetype");
 }
-  
+
 @font-face {
     font-family: "SegoeWP-Light";
     font-style: normal;
     font-weight: normal;
     src: url("assets/fonts/segoe-wp-light.ttf") format("truetype");
 }
-  
+
 @font-face {
     font-family: "SegoeUI-Bold";
     font-style: normal;
     font-weight: normal;
     src: url("assets/fonts/Segoe\ UI\ Bold.woff") format("woff");
 }
-  
+
 @font-face {
     font-family: "SegoeUI";
     font-style: normal;
     font-weight: normal;
     src: url("assets/fonts/Segoe\ UI.woff") format("woff");
 }
-  
+
 @font-face {
     font-family: "SegoeUI-Light";
     font-style: normal;
     font-weight: normal;
     src: url("assets/fonts/segoeuil.ttf") format("truetype");
 }
-  
+
 @font-face {
     font-family: "LucidaSans-Italic";
     font-style: normal;
     font-weight: normal;
     src: url("assets/fonts/Lucida\ Sans\ Italic.ttf") format("truetype");
 }
-  
+
 @font-face {
     font-family: "PTSans-Regular";
     font-style: normal;
     font-weight: normal;
     src: url("assets/fonts/PTSans-Regular.ttf") format("truetype");
 }
-  
+
 @font-face {
     font-family: "PTSans-NarrowBold";
     font-style: normal;
     font-weight: normal;
     src: url("assets/fonts/PTSansNarrow-Bold.ttf") format("truetype");
 }
+
 /* End Fonts */
 
 body {
@@ -110,26 +112,26 @@ body {
     max-width: 1020px;
     margin: 0 auto;
 }
-  
+
 .logo,
 .back-logo {
     height: calc(1.875rem + ((1vw - 3.6px) * 5.7447));
 }
-  
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.9rem 0 3.2rem 0;
 }
-  
+
 .h-logo,
 .f-logo {
     display: flex;
     color: white;
     align-items: center;
 }
-  
+
 .h-logo h1 {
     font-size: calc(1rem + ((1vw - 3.6px) * 2.6596));
     padding-left: 0.6rem;
@@ -137,18 +139,18 @@ header {
     font-family: "LucidaSans-Italic";
     text-transform: uppercase;
 }
-  
+
 .back-logo {
     transform: rotateZ(45deg);
     position: absolute;
     left: 0;
     opacity: 0.5;
 }
-  
+
 .logo-position {
     position: relative;
 }
-  
+
 nav {
     display: flex;
     background-color: #f5c506;
@@ -157,11 +159,11 @@ nav {
     align-self: flex-end;
     flex: 0 0 454px;
 }
-  
+
 .nav-icon {
     padding-right: 0.5rem;
 }
-  
+
 .nav-button {
     cursor: pointer;
     flex: 1;
@@ -176,18 +178,19 @@ nav {
     font-size: calc(0.7rem + ((1vw - 3.6px) * 0.5));
     font-family: SegoeWP, AdobeInvisFont, MyriadPro-Regular;
 }
-  
+
 .nav-button:last-of-type {
     border: none;
 }
-  
+
 .nav-button:hover {
     background-color: #f7d037;
 }
-  
+
 .nav-button:first-of-type {
     padding-left: 1.2rem;
 }
+
 /* End Header */
 
 /* Start Header Content */
@@ -197,7 +200,7 @@ nav {
     align-items: center;
     padding-bottom: 4.8rem;
 }
-  
+
 .header-content-text {
     font-size: 63px;
     text-transform: uppercase;
@@ -207,11 +210,11 @@ nav {
     text-align: center;
     opacity: 0.8;
 }
-  
+
 #white-color {
     color: white;
 }
-  
+
 .video-player {
     background: url(assets/video-bg.png);
     background-repeat: no-repeat;
@@ -225,13 +228,13 @@ nav {
     margin-right: 4em;
     box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
 }
-  
+
 .player {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-  
+
 .bttn-round {
     width: 68px;
     height: 68px;
@@ -242,7 +245,7 @@ nav {
     margin-bottom: 6.2em;
     padding: 3px 0 0 5px;
 }
-  
+
 .bttn-rectangle {
     height: 28px;
     width: 28px;
@@ -251,22 +254,22 @@ nav {
     opacity: 0.37;
     padding: 3px 0 0 0;
 }
-  
+
 .bttn-round:hover {
     background-color: #f5c506;
 }
-  
+
 .bttn-rectangle:hover {
     opacity: 1;
 }
-  
+
 .video-controls {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 1em;
 }
-  
+
 .playtime {
     position: relative;
     background-color: rgba(245, 197, 6, 0.28);
@@ -275,11 +278,11 @@ nav {
     border-radius: 10px;
     cursor: pointer;
 }
-  
+
 .playtime:hover {
     background-color: rgba(245, 197, 6, 0.5);
 }
-  
+
 .playtime-after {
     position: absolute;
     background-color: rgba(245, 197, 6);
@@ -287,7 +290,7 @@ nav {
     height: 100%;
     border-radius: 10px 0px 0px 10px;
 }
-  
+
 .speaker:hover {
     opacity: 0.8;
 }
@@ -297,32 +300,33 @@ nav {
     border: none;
     padding: 1.3rem 0.6rem;
 }
-  
+
 .lr-bttn:first-of-type {
     background-color: rgb(245, 197, 6, 0.7);
 }
-  
+
 .lr-bttn:hover {
     background-color: #f9dc69;
 }
+
 /* End Header Content */
 
 /* Start Short Information Section */
 .short-info-section {
     background: url(assets/short-section-background.png);
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25),
-      0px -5px 10px rgba(0, 0, 0, 0.25);
+        0px -5px 10px rgba(0, 0, 0, 0.25);
     z-index: 1;
     position: relative;
 }
-  
+
 .short-info-section-container {
     display: flex;
     width: 100%;
     justify-content: center;
     height: 213px;
 }
-  
+
 .short-info-section-box {
     display: flex;
     flex-direction: column;
@@ -336,15 +340,16 @@ nav {
     font-weight: normal;
     font-family: SegoeUI-Light, AdobeInvisFont, MyriadPro-Regular;
 }
-  
+
 .short-info-section-box h3 {
     padding-top: 0.5rem;
     text-align: center;
 }
-  
-.short-info-section-container > *:last-of-type {
+
+.short-info-section-container>*:last-of-type {
     border-right: 1px solid rgb(0, 0, 0, 0.14);
 }
+
 /* End Short Information Section */
 
 /* Start Yellow Information Section */
@@ -354,7 +359,7 @@ nav {
     flex-direction: column;
     align-items: center;
 }
-  
+
 .y-section-heading {
     font-size: 37px;
     color: white;
@@ -364,47 +369,47 @@ nav {
     font-weight: normal;
     padding: 0.7em 0;
 }
-  
+
 .y-section-main-container {
     display: flex;
     flex-direction: column;
 }
-  
+
 .y-section-columns {
     display: flex;
     justify-content: center;
 }
-  
-.y-section-columns > * {
+
+.y-section-columns>* {
     flex: 0 1 330px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-  
+
 .y-section-text-box {
     background-color: #ec9e03;
     color: white;
     position: relative;
     font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
 }
-  
+
 .y-section-text-box p {
     width: 80%;
     font-size: calc(1.125rem + ((1vw - 3.6px) * 1.1702));
 }
-  
+
 .y-section-image {
     background-image: url("assets/animation.png");
     background-repeat: no-repeat;
     height: 233px;
     width: 315px;
 }
-  
-.y-section-image > * {
+
+.y-section-image>* {
     margin: 0;
 }
-  
+
 .y-section-date {
     background-color: #ddb101;
     text-align: center;
@@ -412,7 +417,7 @@ nav {
     align-self: flex-start;
     font-family: SegoeUI, AdobeInvisFont, MyriadPro-Regular;
 }
-  
+
 .y-section-date div:first-of-type {
     font-size: 51px;
     color: white;
@@ -420,19 +425,19 @@ nav {
     line-height: 42px;
     font-family: SegoeUI-Bold, AdobeInvisFont, MyriadPro-Regular;
 }
-  
+
 .y-section-date div:last-of-type {
     color: #b26529;
     font-size: 21px;
     text-transform: uppercase;
 }
-  
+
 .twitter-box {
     background-color: #ec9e03;
     margin-left: 2rem;
     position: relative;
 }
-  
+
 .twitter-box-mobile {
     display: none;
     background-color: #f5c507;
@@ -440,74 +445,76 @@ nav {
     align-items: center;
     padding: 1rem 0;
 }
-  
+
 .twitter-bubbles {
     display: flex;
     flex-direction: column;
 }
-  
+
 .twitter-bubble {
     position: relative;
     opacity: 0.7;
     margin-bottom: 1rem;
 }
-  
+
 .twitter-bubble:first-of-type {
     opacity: 1;
 }
-  
+
 .twitter-bubble:last-of-type {
     opacity: 0.6;
 }
-  
+
 .twitter-bubble-text {
     position: absolute;
     top: 0.4rem;
     left: 1.2rem;
-    font-size: calc(0.6875rem + ((1vw - 3.6px) * 0.8511));
+    font-size: 1.2rem;
     color: #8f8e8e;
 }
-  
+
 .twitter-bubble-img {
     width: calc(12.5rem + ((1vw - 3.6px) * 31.9149));
 }
-  
-.twitter-bubbles > * {
+
+.twitter-bubbles>* {
     flex: 1;
 }
-  
+
 .twitter-form {
     display: flex;
-    width: 100%;
+    margin-left: 5%;
+    width: 95%;
     border: 1px solid #dcb105;
     border-radius: 11px;
 }
-  
+
 .twitter-form input {
     border-radius: 11px 0 0 11px;
     border: none;
+    padding: 10px 0 10px 10px;
     flex: 1;
 }
-  
+
 .twitter-form button {
     background-color: #ec9e03;
     border: none;
     border-radius: 0 11px 11px 0;
     color: white;
-    font-family: ArialMT, AdobeInvisFont, MyriadPro-Regular;
+    font-family: SegoeUI, AdobeInvisFont, MyriadPro-Regular;
     flex: 0 1 80px;
-    padding: 5.5px 0px;
-    font-size: 15px;
+    padding: 0 0 3px 0;
+    font-size: 20px;
 }
-  
+
 .twitter-form button:hover {
     background-color: #ddb101;
 }
-  
+
 .twitter-icon-mobile {
     width: calc(8.75rem + ((1vw - 3.6px) * 2.5532));
 }
-  
+
 .plus {
     position: absolute;
     bottom: 0.5em;
@@ -519,11 +526,11 @@ nav {
     font-size: 1.3rem;
     opacity: 0.7;
 }
-  
+
 .plus:hover {
     color: black;
 }
-  
+
 .twitter-number {
     position: absolute;
     top: 0.5em;
@@ -532,7 +539,7 @@ nav {
     font-size: 25px;
     font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
 }
-  
+
 .slider {
     position: relative;
     background-color: rgba(255, 255, 255, 0.48);
@@ -542,11 +549,11 @@ nav {
     margin: 3em 0 1.3em 0;
     cursor: pointer;
 }
-  
+
 .slider:hover {
     background-color: rgba(255, 255, 255, 0.7);
 }
-  
+
 .slider-nav {
     position: absolute;
     background-color: #ec9e03;
@@ -555,32 +562,33 @@ nav {
     left: 30%;
     border-radius: 10px;
 }
-  
-.cloud {
+
+.img-1 {
     width: calc(5rem + ((1vw - 3.6px) * 3.1915));
 }
-  
-.leaf {
+
+.img-2 {
     width: calc(4.1875rem + ((1vw - 3.6px) * 2.6596));
 }
-  
-.paper-plane {
+
+.img-3 {
     width: calc(3.75rem + ((1vw - 3.6px) * 2.3404));
 }
+
 /* End Yellow Information Section */
-  
+
 /* Start Grey Information Section */
 .g-section {
-    background-image: url(./assets/grey-background.png);
+    background-image: url(assets/grey-bg.png);
 }
-  
+
 .g-section-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 5rem;
 }
-  
+
 .g-section-heading {
     color: #f5c506;
     text-transform: uppercase;
@@ -590,13 +598,13 @@ nav {
     font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
     font-weight: normal;
 }
-  
+
 .g-section ul {
     padding: 0;
     margin: 0;
     flex: 0 0 376px;
 }
-  
+
 .g-section ul li {
     color: #a9a9a7;
     font-size: 22px;
@@ -604,15 +612,15 @@ nav {
     position: relative;
     padding: 0 0 14px 36px;
 }
-  
+
 .g-section ul li:nth-child(odd) {
     font-family: PTSans-Regular, OpenSans, AdobeInvisFont, MyriadPro-Regular;
 }
-  
+
 .g-section ul li:nth-child(even) {
     font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
 }
-  
+
 .g-section ul li::before {
     position: absolute;
     content: "";
@@ -623,18 +631,18 @@ nav {
     background-color: #f5c506;
     border-radius: 50%;
 }
-  
+
 .window-type {
     display: flex;
     align-items: center;
     position: relative;
 }
-  
-.wdindow-type-container > * {
+
+.wdindow-type-container>* {
     padding-right: 1rem;
     opacity: 0.57;
 }
-  
+
 .free {
     position: absolute;
     width: 116px;
@@ -656,19 +664,47 @@ nav {
     opacity: 1;
     z-index: 1;
 }
-  
+
 .smartphone {
     align-self: flex-end;
     padding-right: 0;
     width: calc(1.4375rem + ((1vw - 3.6px) * 1.7021));
 }
-  
+
 .tablet {
     opacity: 0.47;
     width: calc(4.75rem + ((1vw - 3.6px) * 5.6383));
 }
-  
+
 .desktop {
     width: calc(10.8rem + ((1vw - 3.6px) * 13.9));
 }
+
 /* End Grey Information Section */
+
+/* Footer */
+footer {
+    background-color: #4c4c4c;
+    box-shadow: 0px -3px 4px 0px;
+    padding-left: 1rem;
+}
+
+.f-logo h1 {
+    font-size: calc(1.25rem + ((1vw - 3.6px) * 0.9574));
+    font-family: LucidaSans-Italic, AdobeInvisFont, MyriadPro-Regular;
+    padding-left: 1rem;
+}
+
+.f-logo {
+    padding: 1rem 0;
+}
+
+.logo-container {
+    position: relative;
+  }
+
+footer .logo,
+footer .back-logo {
+    height: calc(1.875rem + ((1vw - 3.6px) * 2.6596));
+}
+/* Footer */
