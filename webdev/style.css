@@ -208,7 +208,7 @@ margin-right: 40px;
 }
 
 .btn-main:hover {
-    background-color: #009CC2;;
+    background-color: #009CC2;
     cursor: pointer; 
 }
 
@@ -395,4 +395,54 @@ p {
 .third-section-info .btn-main {
     margin-left: 0;
     width: 180px; 
+}
+
+/* Footer */
+footer {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 185px;
+    background-color: #000;
+}
+  
+.navigation {
+    margin-right: 345px; 
+    display: flex;
+    flex-direction: row;
+}
+   
+.navigation a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    line-height: 20px;
+    color: #fff;
+}
+
+.navigation a:hover {
+    color: #00AFDB;
+}
+
+.footer-logo {
+    margin-right: 445px; 
+}
+  
+.c {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #818181; 
+}
+
+.space {
+    width: 8px;
+    height: 0;
+    margin-top: 8px;
+    border: 1px solid #4E4E4E;
+    transform: rotate(-90deg);
+    margin-left: 20px;
+    margin-right: 20px;
 }
