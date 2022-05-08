@@ -90,3 +90,99 @@ a {
     font-weight: normal;
     src: url("assets/fonts/PTSansNarrow-Bold.ttf") format("truetype");
 }
+
+body {
+    margin: 0;
+}
+
+/* Start Header */
+  
+.header-bg {
+    background-image: url(assets/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+  
+.logo,
+.back-logo {
+    height: calc(1.875rem + ((1vw - 3.6px) * 5.7447));
+}
+  
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.9rem 0 3.2rem 0;
+}
+  
+.h-logo,
+.f-logo {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+  
+.h-logo h1 {
+    font-size: calc(1rem + ((1vw - 3.6px) * 2.6596));
+    padding-left: 0.6rem;
+    padding-top: 0.6rem;
+    font-family: "LucidaSans-Italic";
+}
+  
+.back-logo {
+    transform: rotateZ(45deg);
+    position: absolute;
+    left: 0;
+    opacity: 0.5;
+}
+  
+.logo-position {
+    position: relative;
+}
+  
+nav {
+    display: flex;
+    background-color: #f5c506;
+    align-items: center;
+    box-shadow: -4px -4px 0px 0px #f5c50645, -8px -8px 0px 0px #f5c50645;
+    align-self: flex-end;
+    flex: 0 0 454px;
+}
+  
+.nav-icon {
+    padding-right: 0.5rem;
+}
+  
+.nav-button {
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #9b7d08;
+    border-right: 1px solid rgb(0, 0, 0, 0.1);
+    padding: 11px 0;
+    height: 100%;
+    font-size: calc(0.7rem + ((1vw - 3.6px) * 0.5));
+    font-family: SegoeWP, AdobeInvisFont, MyriadPro-Regular;
+}
+  
+.nav-button:last-of-type {
+    border: none;
+}
+  
+.nav-button:hover {
+    background-color: #f7d037;
+}
+  
+.nav-button:first-of-type {
+    padding-left: 1.2rem;
+}
+
+/* End Header */
