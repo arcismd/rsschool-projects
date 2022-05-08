@@ -1,0 +1,92 @@
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+  
+a {
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ArialMT";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/arialmt.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Asap-Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/Asap-Regular.ttf") format("truetype");
+}
+  
+@font-face {
+    font-family: "SegoeWP";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/SegoeWP.ttf") format("truetype");
+}
+  
+@font-face {
+    font-family: "SegoeWP-Light";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/segoe-wp-light.ttf") format("truetype");
+}
+  
+@font-face {
+    font-family: "SegoeUI-Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/Segoe\ UI\ Bold.woff") format("woff");
+}
+  
+@font-face {
+    font-family: "SegoeUI";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/Segoe\ UI.woff") format("woff");
+}
+  
+@font-face {
+    font-family: "SegoeUI-Light";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/segoeuil.ttf") format("truetype");
+}
+  
+@font-face {
+    font-family: "LucidaSans-Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/Lucida\ Sans\ Italic.ttf") format("truetype");
+}
+  
+@font-face {
+    font-family: "PTSans-Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/PTSans-Regular.ttf") format("truetype");
+}
+  
+@font-face {
+    font-family: "PTSans-NarrowBold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("assets/fonts/PTSansNarrow-Bold.ttf") format("truetype");
+}
