@@ -15,7 +15,8 @@ class Calculator {
     }
 
     appendNum(number) {
-
+        if (number === '.' && this.currentOperand.includes('.')) return
+        this.currentOperand = this.currentOperand.toString() + number.toString()
     }
 
     chooseOp(operation) {
@@ -39,3 +40,11 @@ const allClearBtn = document.querySelector("[data-all-clear]")
 const previousOperandEl = document.querySelector("[data-previous-operand]")
 const currentOperandEl = document.querySelector("[data-current-operand]")
 
+const calculator = new Calculator(previousOperandEl, currentOperandEl)
+
+numBtn.forEach(button => {
+    button.addEventListener('click', () => {
+        calculator.appendNum(button.innerText)
+        calculator.update()
+    })
+})
